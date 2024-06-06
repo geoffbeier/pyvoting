@@ -3,7 +3,7 @@ author: Yichen Zhang
 """
 import pandas as pd
 import numpy as np
-from Voting import Voting
+from .Voting import Voting
 
 class RankedChoiceVoting(Voting):
     
